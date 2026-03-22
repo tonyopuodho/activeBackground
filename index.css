@@ -10,3 +10,37 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bolder;
+}
+.content{
+    display: flex;
+    gap: 30px;
+}
+.numbers{
+    width: 40px;
+    height: 40px;
+    color: black;
+    font: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;  
+}
+.numbers.active{
+    background-color: black;
+    color: white;
+}
