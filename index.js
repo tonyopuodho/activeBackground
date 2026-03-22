@@ -32,3 +32,14 @@ nextBtn.addEventListener('click',() => {
     }
     activeBackground(current)
 })
+
+previousBtn.addEventListener('click',() => {
+    if ( 0 < current) {
+        current--
+    } 
+    if (current === 0){
+        current = numbers - 1
+    }
+    console.log(current)
+    activeBackground(current)
+})
